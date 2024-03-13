@@ -43,5 +43,6 @@ LATEST RELEASE AND WITHOUT ANY ERROR
 
 # CONTACT:
 ```sh
-Telegram: @learneverything9
+Telegram: @zxcr9999
+Discord: zxcr9999#1770
 ```

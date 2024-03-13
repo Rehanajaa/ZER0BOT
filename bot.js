@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const { Client } = require('discord.js');
 const client = new Discord.Client();
 const chalk = require('chalk');
@@ -263,8 +263,8 @@ client.once('ready', () => {
     client.user.setPresence({
         status: 'available',
         activity: {
-            name: 'HENTAI',
-            type: 'WATCHING',
+            name: '.help',
+            type: 'playing',
             url: 'https://discord.com/'
         }
     });
@@ -283,4 +283,4 @@ client.on('error', e => {
   console.log(chalk.b.red(e.replace(regToken, 'that was.redacted')));
 });
 
-client.login("PASTE YOUR BOT TOKEN");
+client.login("MTA3NTc0NDI4OTE2ODA0NDA1Mg.G95Pbq._Nj_v8YqbKCxEDAtExSx9-lQk-CU7-cqip0EWM");
